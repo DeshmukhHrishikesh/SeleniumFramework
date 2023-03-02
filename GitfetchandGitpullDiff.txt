@@ -1,0 +1,20 @@
+Git Fetch -
+
+Gives the information of a new change from a remote repository without merging into the current branch.
+Repository data is updated in the .git directory.
+Review of commits and changes can be done.
+No possibility of merge conflicts.
+Command for Git fetch is git fetch<remote>.
+Git fetch basically imports the commits to local branches so as to keep up-to-date that what everybody is working on.
+
+
+
+Git Pull -
+
+
+Brings the copy of all the changes from a remote repository and merges them into the current branch.
+The local repository is updated directly.
+Updates the changes to the local repository immediately.
+Merge conflicts are possible if the remote and the local repositories have done changes at the same place.
+Command for Git Pull is git pull<remote><branch>.
+Git Pull basically brings the local branch up-to-date with the remote copy that will also updates the other remote tracking branches.
